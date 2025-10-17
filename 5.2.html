@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+    <style>
+        *{border: 1px solid black;}
+        
+        img{
+            float: right;
+        }
+        html.body{
+            border-color: red;
+        }
+        .box{
+            font-size: 30pt;
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            margin: 10px;
+            display: inline-block;
+            border: 2px solid blue;
+            position: static;
+            
+        }
+        #box2{position: relative; 
+            top: 30px;
+            left: 30px;
+        }
+        #box3{position: absolute; 
+            top: 50px;
+        }
+        #box4{position: fixed; 
+            right: 10px;
+            bottom: 10px;
+            background-color: orange;
+
+        }
+        .container{
+            position: relative;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Titulo blabla</h1>
+   
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequuntur quam ex numquam commodi eaque aliquam blanditiis obcaecati hic assumenda quisquam in mollitia porro explicabo, quia maxime? Aliquid, molestiae fuga? Lorem ipsum dolor sit amet consectetur adipisicing elit. Error minus ad suscipit iusto explicabo nihil, ipsum officiis, perferendis distinctio aperiam perspiciatis natus consequuntur cum deleniti ullam! Sapiente nisi a facere. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, in placeat! Vitae neque, nulla error sed fugiat sunt mollitia. Rem quidem officia perferendis laboriosam, molestias iste a fugit ipsum et?</p>
+
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequuntur quam ex numquam commodi eaque aliquam blanditiis obcaecati hic assumenda quisquam in mollitia porro explicabo, quia maxime? Aliquid, molestiae fuga? Lorem ipsum dolor sit amet consectetur adipisicing elit. Error minus ad suscipit iusto explicabo nihil, ipsum officiis, perferendis distinctio aperiam perspiciatis natus consequuntur cum deleniti ullam! Sapiente nisi a facere. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, in placeat! Vitae neque, nulla error sed fugiat sunt mollitia. Rem quidem officia perferendis laboriosam, molestias iste a fugit ipsum et?</span>
+
+    <span>Lorem</span>
+    <br>
+    <img src="./img/Sol.webp" alt="" width="200" height="100"   >
+
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sunt, non qui distinctio hic quas voluptatibus labore eaque adipisci eius quo impedit, debitis doloremque odit! Veniam error aliquid debitis architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed tempora, totam optio accusantium rem reiciendis nemo aliquam, doloribus unde impedit ea? Atque dicta adipisci provident labore accusamus quisquam inventore praesentium!</span>
+    <div>
+        
+        <div id="box1" class="box">box1</div>
+        <div id="box2" class="box">box2</div>
+        <div id="box3" class="box">box3</div>
+        <div id="box4" class="box">box4</div>
+        <div id="box5" class="box">box5</div>
+        
+    </div>
+    
+</body>
+</html>
